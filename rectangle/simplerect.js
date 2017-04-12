@@ -8,8 +8,7 @@ function solveRect(l, b) {
 
   if (l <= 0 || b <= 0) {
     console.log(`Rectangle dimensions should be greater than zero: l = ${l} and b = ${b}`);
-  }
-  else {
+  } else {
     console.log(`The area of a rectangle of dimensions length l = ${l} and breadth = ${b} is ${rect.area(l, b)}`);
     console.log(`The perimeter of a rectangle of dimensions length l = ${l} and breadth = ${b} is ${rect.perimeter(l, b)}`);
   }
