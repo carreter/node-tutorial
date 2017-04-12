@@ -1,29 +1,20 @@
 {
   "name": "node-tutorial",
-  "version": "0.0.0",
-  "description": "Various tutorials on how to use node, mainly from the Full Stack Web Dev course on coursera",
+  "version": "1.0.0",
+  "description": "Express + node + mongoDB tutorial",
   "main": "index.js",
-  "dependencies": {
-    "yargs": "^7.0.2"
-  },
+  "repository": "https://github.com/palmerito0/node-tutorial.git",
+  "author": "palmerito0 <sandiegobutterflies@gmail.com>",
+  "license": "MIT",
   "devDependencies": {
     "eslint": "^3.19.0",
     "eslint-config-airbnb": "^14.1.0",
-    "eslint-config-airbnb-base": "^11.1.3",
-    "eslint-plugin-import": "^2.2.0",
-    "eslint-plugin-jsx-a11y": "^4.0.0",
-    "eslint-plugin-react": "^6.10.3",
-    "htmlhint": "^0.9.13",
+    "eslint-plugin-import": "2.2.0",
+    "eslint-plugin-jsx-a11y": "4.0.0",
+    "eslint-plugin-react": "6.9.0"
+  },
+  "dependencies": {
+    "global": "^4.3.1",
     "install-peerdeps": "^1.1.3"
-  },
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "repository": "https://github.com/palmerito0/node-tutorial.git",
-  "author": "palmerito0 <sandiegobutterflies@gmail.com>",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/palmerito0/node-tutorial/issues"
-  },
-  "homepage": "https://github.com/palmerito0/node-tutorial"
+  }
 }
